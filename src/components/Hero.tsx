@@ -5,16 +5,17 @@ export default function Hero() {
     <section id="home" className="min-h-screen flex items-center justify-center px-6 py-20">
       <div className="max-w-6xl w-full grid md:grid-cols-2 gap-12 items-center">
         <div className="order-2 md:order-1">
-          <h1 className="text-5xl md:text-6xl font-bold mb-4 bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">
+          <h1 className="text-5xl md:text-7xl font-bold mb-4 bg-gradient-to-r from-blue-400 via-cyan-400 to-blue-600 bg-clip-text text-transparent">
             Vantharam Aditya
           </h1>
-          <p className="text-2xl md:text-3xl text-gray-300 mb-6">
-            B.Tech Student & Aspiring Software Engineer
+          <p className="text-2xl md:text-3xl text-gray-300 mb-6 font-light">
+            B.Tech Student & Aspiring <span className="text-blue-400">Software Engineer</span>
           </p>
-          <p className="text-lg text-gray-400 mb-8 leading-relaxed">
+          <p className="text-lg text-gray-400 mb-8 leading-relaxed max-w-lg">
             Passionate about building innovative solutions with modern technologies.
-            Currently pursuing B.Tech at Neerukonda Institute of Technology and Science.
+            Specializing in AI-based sustainable technologies and full-stack development.
           </p>
+
           <div className="flex flex-wrap gap-4 mb-8">
             <a
               href="mailto:Adityavantharam999@gmail.com"

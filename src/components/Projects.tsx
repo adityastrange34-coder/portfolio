@@ -6,9 +6,24 @@ export default function Projects() {
       title: 'Portfolio Website',
       description: 'A modern, responsive portfolio website built with React, TypeScript, and Tailwind CSS. Features include interactive sections, contact form with database integration, and SEO optimization.',
       technologies: ['React', 'TypeScript', 'Tailwind CSS', 'Supabase'],
+      github: 'https://github.com/adityavantharam',
+      live: '#',
+    },
+    {
+      title: 'Green AI Solutions',
+      description: 'Research and development of AI-based solutions for environmental sustainability, focusing on reducing carbon footprint through optimized algorithms.',
+      technologies: ['Python', 'AI Tools', 'Data Analysis'],
       github: '#',
       live: '#',
     },
+    {
+      title: 'Smart Energy Management',
+      description: 'Proposed and designed an AI-driven system for monitoring and managing energy consumption in residential buildings.',
+      technologies: ['Python', 'Machine Learning', 'AI'],
+      github: '#',
+      live: '#',
+    },
+
   ];
 
   return (

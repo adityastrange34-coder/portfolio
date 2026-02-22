@@ -34,19 +34,19 @@ export default function Header() {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled ? 'bg-gray-900/95 backdrop-blur-md shadow-lg' : 'bg-transparent'
-      }`}
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? 'bg-gray-900/95 backdrop-blur-md shadow-lg' : 'bg-transparent'
+        }`}
     >
       <nav className="max-w-7xl mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <a
             href="#home"
             onClick={(e) => handleNavClick(e, '#home')}
-            className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent"
+            className="text-3xl font-black tracking-tighter text-gradient hover:opacity-80 transition-opacity"
           >
-            VA
+            VA.
           </a>
+
 
           <div className="hidden md:flex items-center gap-8">
             {navItems.map((item) => (

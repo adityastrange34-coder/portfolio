@@ -29,15 +29,15 @@ export default function About() {
           <div className="bg-gray-800/50 backdrop-blur-sm rounded-xl p-8 border border-gray-700">
             <h3 className="text-2xl font-semibold mb-4 text-white">My Journey</h3>
             <p className="text-gray-300 leading-relaxed mb-4">
-              I'm a dedicated B.Tech student with a passion for technology and innovation.
-              My journey in software development has equipped me with a strong foundation
-              in programming languages and modern development practices.
+              I'm Vantharam Aditya, a passionate B.Tech student at Neerukonda Institute of Technology and Science.
+              My academic journey (2024-2028) is focused on mastering modern software engineering and artificial intelligence.
             </p>
             <p className="text-gray-300 leading-relaxed">
-              Through internships and hands-on projects, I've gained practical experience in
-              AI, web development, and database management. I'm always eager to learn new
-              technologies and solve complex problems.
+              During my internship at Edunet Foundation, I explored the intersection of AI and green technologies,
+              which sparked my interest in building sustainable and efficient digital solutions.
+              I am proficient in C, C++, Java, and Python, and I love creating interactive web experiences.
             </p>
+
           </div>
         </div>
       </div>

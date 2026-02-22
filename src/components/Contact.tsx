@@ -18,8 +18,12 @@ export default function Contact() {
     setErrorMessage('');
 
     try {
+      if (!supabase) {
+        throw new Error('Contact form service is not configured. Please check environment variables.');
+      }
       const { error } = await supabase
         .from('contact_messages')
+
         .insert([
           {
             name: formData.name,
